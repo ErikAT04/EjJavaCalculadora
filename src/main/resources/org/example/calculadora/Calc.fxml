@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.calculadora.CalculadoraControl">
+   <children>
+      <Button layoutX="41.0" layoutY="205.0" mnemonicParsing="false" onAction="#onBoton1" text="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="99.0" layoutY="205.0" mnemonicParsing="false" onAction="#onBoton2" text="2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="205.0" mnemonicParsing="false" onAction="#onBoton3" text="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="41.0" layoutY="261.0" mnemonicParsing="false" onAction="#onBoton4" text="4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="99.0" layoutY="261.0" mnemonicParsing="false" onAction="#onBoton5" text="5">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="261.0" mnemonicParsing="false" onAction="#onBoton6" text="6">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="41.0" layoutY="316.0" mnemonicParsing="false" onAction="#onBoton7" text="7">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="99.0" layoutY="316.0" mnemonicParsing="false" onAction="#onBoton8" text="8">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="316.0" mnemonicParsing="false" onAction="#onBoton9" text="9">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="99.0" layoutY="368.0" mnemonicParsing="false" onAction="#onBoton0" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="41.0" layoutY="368.0" mnemonicParsing="false" onAction="#onBotonDecimal" text=".">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="368.0" mnemonicParsing="false" onAction="#onBotonBorrar" text="🔙">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="250.0" layoutY="205.0" mnemonicParsing="false" onAction="#onSumar" text="+">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="250.0" layoutY="261.0" mnemonicParsing="false" onAction="#onMultiplicacion" text="×">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="304.0" layoutY="205.0" mnemonicParsing="false" onAction="#onRestar" text="-">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="304.0" layoutY="261.0" mnemonicParsing="false" onAction="#onDivision" text="/">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="250.0" layoutY="368.0" mnemonicParsing="false" onAction="#onIgual" text="=">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="352.0" layoutY="205.0" mnemonicParsing="false" onAction="#onPotencia" text="^">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="352.0" layoutY="261.0" mnemonicParsing="false" onAction="#onRaiz" text="√">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="resultado" alignment="CENTER" editable="false" layoutX="103.0" layoutY="70.0" prefHeight="56.0" prefWidth="209.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
